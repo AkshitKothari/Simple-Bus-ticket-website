@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<html>
+<body>
+    <div class="card-group">
+        <div class="card">
+            <img src="z1.jpeg">
+            <div class="layer"></div>
+            <div class="info">
+                <h1>Hanuman</h1>
+            <button id="mybutton">Book</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="z2.jpg">
+            <div class="layer"></div>
+            <div class="info">
+                <h1>RRR</h1>
+                <button id="mybutton1">Book</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="z3.jpg">
+            <div class="layer"></div>
+            <div class="info">
+                <h1>Bahubali</h1>
+                <button id="mybutton2">Book</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('mybutton').addEventListener('click',function(event)
+            {
+                    event.preventDefault();
+                    window.location.href='seat.html';
+                
+            });
+            document.getElementById('mybutton1').addEventListener('click',function(event)
+            {
+                    event.preventDefault();
+                    window.location.href='seat.html';
+                
+            });
+            document.getElementById('mybutton2').addEventListener('click',function(event)
+            {
+                    event.preventDefault();
+                    window.location.href='seat.html';
+                
+            });
+    </script>
+</body>
+</html>
